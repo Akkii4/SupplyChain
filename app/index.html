@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SupplyChain -- Journey of the Product</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>FoodSafe</h1>
+  <br/><label for="contractAddress">Conract Address:</label> <input type="text" id="contractAddress" placeholder="Scan the address or create a new contract"> </input>
+  <br/><label for="locationId">Locaation Id:</label> <input type="text" id="locationId" placeholder="Enter  Location Id"> </input>
+  <br/><label for="locationName">Location Name:</label> <input type="text" id="locationName" placeholder="Enter  LocationName"> </input>
+  <br/><label for="secret">Secret:</label> <input type="text" id="secret" placeholder="Enter Secret"> </input>
+  <br/><label for="passPhrase">Passphrases:</label> <input type="text" id="passPhrase" placeholder="PassPhrase"> </input>
+
+  <br/><br/>
+  <button id="createContract" onclick="App.createContract()">Create New Contract</button>
+  <br/><br/>
+  <button id="addNewLocation" onclick="App.addNewLocation()">Add New Location</button>
+  <br/><br/>
+  <button id="getCurrentLocation" onclick="App.getCurrentLocation()">Get the Current Location</button>
+</body>
+</html>
